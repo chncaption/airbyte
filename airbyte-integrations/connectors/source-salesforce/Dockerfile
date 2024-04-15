@@ -2,7 +2,7 @@
 # https://security-tracker.debian.org/tracker/CVE-2023-29383
 # https://security-tracker.debian.org/tracker/CVE-2023-31484
 # https://security-tracker.debian.org/tracker/CVE-2016-2781
-FROM python:3.9-alpine3.18
+FROM python:3.13.0a6-alpine3.18
 
 
 RUN apk add --update --no-cache \
